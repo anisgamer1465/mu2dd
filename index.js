@@ -1,13 +1,4 @@
-const http = require('http');
-const express = require('express');
-const app = express();
-app.get("/", (request, response) => {
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://ink-cloudy-porch.glitch.me/`);
-}, 280000);
+
  
 
 const Discord = require('discord.js');
@@ -24,7 +15,7 @@ const PREFIX = process.env.PREFIX
 
 const client = new Discord.Client({ disableEveryone: true});
 const GUILDID = '710788425116024973'; // اي دي السيرفر  
-const CHANNELID = '728302381397180457'; // اي دي الروم
+const CHANNELID = '728302351563096195'; // اي دي الروم
 const ownerID = ["406035166817943554"]; // ايدي ادارة البوت او صاحب البوت ..
 
 
