@@ -11,7 +11,7 @@ const fs = require('fs');
 
 const prefix = process.env.PREFIX
 const PREFIX = process.env.PREFIX
-
+client.login(process.env.BOT_TOKEN)
 
 const client = new Discord.Client({ disableEveryone: true});
 const GUILDID = '710788425116024973'; // اي دي السيرفر  
@@ -663,5 +663,3 @@ client.on('message', message => {
   });
 
 
-
-client.login(process.env.BOT_TOKEN);
